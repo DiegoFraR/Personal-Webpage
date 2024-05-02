@@ -5,6 +5,7 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../css/mediaqueries.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,7 +17,7 @@
     <div>
       <ul class="nav-links">
         <li><a href="#about">About Me</a></li>
-        <li><a href="#Kennesaw-State-Studies">Kennesaw State Studies</a></li>
+        <li><a href="#Kennesaw State Studies">Kennesaw State Studies</a></li>
         <li><a href="#Experience">Experience</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Contact">Contact Me</a></li>
@@ -33,7 +34,7 @@
         <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="About.html" onclick="toggleMenu()">About Me</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
         <li><a href="KSUStudy.html" onclick="toggleMenu()">Kennesaw State Studies</a></li>
         <li><a href="Experience.html" onclick="toggleMenu()">Experience</a></li>
         <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
@@ -45,7 +46,7 @@
 
   <section id="profile">
     <div class="section_pic-container">
-      <img src="../img/DiegoFraustoRamirez.jpg" alt="Diego Frausto Ramirez Profile Picture">
+      <img src="../assets/img/DiegoFraustoRamirez.jpg" alt="Diego Frausto Ramirez Profile Picture">
     </div>
 
     <div class="section_text">
@@ -55,8 +56,120 @@
 
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('../assets/resume.pdf')">Download CV</button>
+
+        <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact Me!</button>
       </div>
 
+      <div id="Socials-Container">
+        <a href="https://www.linkedin.com/in/diego-frausto-ramirez-9921ba27a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/DiegoFraR" target="_blank"><i class='bx bxl-github' ></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section_text_p1">Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="About-Details-Container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h3>Learning the World of Software Engineering</h3>
+            <p>While in high school, I decided to try out an  intro to programming course. Little did I know that this little thing we call coding
+              would turn into one of my passions. I began by writing simple one-off Java programs such as FizzBuzz and things similar to it. I enjoyed the unique challenge
+              that coding provided. It allowed me to express my strong mathematical skills and creativity. While researching for undergraduate degrees to pursue, I noticed
+              the software engineering degree that <a href="https://www.kennesaw.edu">Kennesaw State University</a> offered and instantly knew this is what I wanted to study.
+              I love working on big picture projects, and software engineering seemed to align perfectly.
+            </p>
+            <h3>Current Goals</h3>
+            <p>My current goals are to continue learning new things about the Software Engineering industry and finish my studies at <a href="https://www.kennesaw.edu">Kennesaw State University</a>.
+              My anticipated graduation date is May 2025, and I am excited to start working as a Software Engineer in the industry. In my free time, I enjoy developing side projects as these allow me to learn about new technologies
+              that my university does not teach. I learn best through hands-on learning, and these side projects provide an outlet for me to learn and be creative.
+            </p>
+            <h3>Hobbies</h3>
+            <p>
+              Whenever I am not at my computer, I enjoy spending time with my family, exercising, playing sports (soccer mainly), and learning about other things in the world. The latter
+              tends to send me down a rabbit hole 99% of the time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <i class='bx bx-down-arrow-alt' onclick="location.href='#Kennesaw State Studies'"></i>
+  </section>
+
+  <section id="Kennesaw State Studies">
+    <p class="section_text_p1">My Education</p>
+    <h1 class="title">Kennesaw State University</h1>
+    <div class="Kennesaw-State-Details">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="Kennesaw-State-Subtitle">Completed Courses</h2>
+          <h3>Computer Science Engineering Courses</h3>
+          <div class="courses-taken-container">
+            <ul>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B29%5D=1321&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">CSE 1321: Programming & Problem Solving 1</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B29%5D=1322&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">CSE 1321: Programming & Problem Solving 2</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B29%5D=3153&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">CSE 3153: Database Systems</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CSE&filter%5B29%5D=3801&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">CSE 3801: Professional Practice & Ethics</a></li>
+            </ul>
+          </div>
+
+          <h3>Computer Science Courses</h3>
+          <div class="courses-taken-container">
+            <ul>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=3305&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">CS 3305: Data Structures</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=3502&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">CS 3502: Operating Systems</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=3503&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">CS 3503: Computer Organization & Architecture</a></li>
+            </ul>
+          </div>
+
+          <h3>Software Engineering Courses</h3>
+          <div class="courses-taken-container">
+            <ul>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=3313&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">SWE 3313: Introduction to Software Engineering</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=3623&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">SWE 3623: Software System Requirements</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=3633&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">SWE 3633: Software Architecture & Design</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=3643&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">SWE 3643: Software Testing & Quality Assurance</a></li>
+            </ul>
+          </div>
+
+          <h3>Math Courses</h3>
+          <div class="courses-taken-container">
+            <ul>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=1190&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">MATH 1190: Calculus 1</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=2202&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">MATH 2202: Calculus 2</a></li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=2203&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">MATH 2203: Calculus 3</a> </li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=2345&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">MATH 2345: Discrete Mathematics</a> </li>
+              <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=3260&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">MATH 3260: Linear Algebra</a> </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class ="details-container">
+          <h2 class="Kennesaw-State-Subtitles">Current Courses (Summer 2024)</h2>
+          <div class="courses-taken-container">
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=4720&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">CS 4720: Internet Programming</a> </li>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="Kennesaw-State-Subtitles">Future Course Projection</h2>
+          <h3>Fall 2024</h3>
+          <ul>
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=2306&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">MATH 2306: Ordinary Differential Equations</a> </li>
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=4633&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">SWE 4633: Cloud Software Development</a></li>
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=4713&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">SWE 4713: Software Engineering Application Domain</a> </li>
+          </ul>
+          <h3>Spring 2025</h3>
+          <ul>
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=4324&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895#acalog_template_course_filter" target="_blank">SWE 4324: User Centered Design</a> </li>
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=4663&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">SWE 4663: Software Project Management</a></li>
+            <li><a href="https://catalog.kennesaw.edu/content.php?filter%5B27%5D=SWE&filter%5B29%5D=4724&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=72&expand=&navoid=6895&search_database=Filter#acalog_template_course_filter" target="_blank">SWE 4724: Software Engineering Capstone Project</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
